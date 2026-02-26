@@ -5,15 +5,16 @@
       "codigo": "AE-0466",
       "nombre": "EAN Humanise Studio",
       "cliente": "Circular Lab",
-      "link": "https://andresruiz434.github.io/EAN_HUMANISE/",
+      "link": "https://proyectosaycardi.github.io/EAN_HUMANISE_CL/",
       "imagen": "assets/img/ae0466.png"
     },
     {
       "codigo": "AE-0463",
       "nombre": "EL TIEMPO OFICINAS (Prueba)",
       "cliente": "Construcciones Planificadas",
-      "link": "https://andresruiz434.github.io/ELTIEMPO_OFICINAS/",
+      "link": "https://proyectosaycardi.github.io/ELTIEMPO_OFICINAS_PRUEBA/",
       "imagen": "assets/img/ae0463.png"
     }
   ]
 }
+
