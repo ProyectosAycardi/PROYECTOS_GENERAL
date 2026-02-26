@@ -1,0 +1,19 @@
+{
+  "titulo": "Proyectos estructurales",
+  "proyectos": [
+    {
+      "codigo": "AE-0466",
+      "nombre": "EAN Humanise Studio",
+      "cliente": "Circular Lab",
+      "link": "https://andresruiz434.github.io/EAN_HUMANISE/",
+      "imagen": "assets/img/ae0466.png"
+    },
+    {
+      "codigo": "AE-0463",
+      "nombre": "EL TIEMPO OFICINAS",
+      "cliente": "Construcciones Planificadas",
+      "link": "https://andresruiz434.github.io/proyectos-aycardi/",
+      "imagen": "assets/img/ae0463.png"
+    }
+  ]
+}

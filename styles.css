@@ -1,0 +1,149 @@
+/* LISTA DE PROYECTOS */
+.proyectos-container {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.proyecto-card {
+  background: white;
+  border-radius: 14px;
+  padding: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.proyecto-card h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.proyecto-card .cliente {
+  font-size: 14px;
+  color: #666;
+}
+
+.proyecto-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+}
+
+.proyecto-card .ver {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #30ad36;
+  font-weight: bold;
+}
+/* FRANJA SUPERIOR */
+.header {
+  background: #30ad36;
+  color: white;
+  padding: 14px 16px;
+  display: grid;
+  grid-template-columns: 220px 1fr 220px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.back {
+  background: none;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-center {
+  text-align: center;
+}
+
+.header-center h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.home .back {
+    visibility: hidden;
+}
+
+.header-center h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.header-left {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.icon-btn:hover {
+  background: rgba(0,0,0,0.08);
+}
+
+.logo {
+  width: 200px;             
+  height: auto;         
+  object-fit: contain;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.buscador-proyectos {
+  padding: 12px 16px;
+}
+
+.buscador-proyectos input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  outline: none;
+}
+
+.buscador-proyectos input:focus {
+  border-color: #30ad36;
+}
+
+#listaProyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+
+
+
