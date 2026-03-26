@@ -2,6 +2,13 @@
   "titulo": "Proyectos estructurales",
   "proyectos": [
     {
+      "codigo": "AE-0484",
+      "nombre": "Robledales Torre Palmeri",
+      "cliente": "Construcciones Planificadas",
+      "link": "https://proyectosaycardi.github.io/ROBLEDALES-TORRE_PALMERI/",
+      "imagen": "assets/img/ae0466.png"
+    },
+    {
       "codigo": "AE-0466",
       "nombre": "EAN Humanise Studio",
       "cliente": "Circular Lab",
