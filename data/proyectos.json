@@ -5,22 +5,45 @@
       "codigo": "AE-0484",
       "nombre": "Robledales Torre Palmeri",
       "cliente": "Construcciones Planificadas",
-      "link": "https://proyectosaycardi.github.io/ROBLEDALES-TORRE_PALMERI/",
-      "imagen": "assets/img/ae0484.png"
+      "imagen": "assets/img/ae0484.png",
+      "unidades": [
+        {
+          "nombre": "Torre",
+          "link": "https://proyectosaycardi.github.io/ROBLEDALES-TORRE_PALMERI/"
+        },
+        {
+          "nombre": "Portería",
+          "link": "https://proyectosaycardi.github.io/ROBLEDALES-PORTERIA/"
+        },
+        {
+          "nombre": "Urbanismo",
+          "link": "https://proyectosaycardi.github.io/ROBLEDALES-URBANISMO/"
+        }
+      ]
     },
     {
       "codigo": "AE-0466",
       "nombre": "EAN Humanise Studio",
       "cliente": "Circular Lab",
-      "link": "https://proyectosaycardi.github.io/EAN_HUMANISE_CL/",
-      "imagen": "assets/img/ae0466.png"
+      "imagen": "assets/img/ae0466.png",
+      "unidades": [
+        {
+          "nombre": "Edificio",
+          "link": "https://proyectosaycardi.github.io/EAN_HUMANISE_CL/"
+        }
+      ]
     },
     {
       "codigo": "AE-0463",
       "nombre": "EL TIEMPO OFICINAS (Prueba)",
       "cliente": "Construcciones Planificadas",
-      "link": "https://proyectosaycardi.github.io/ELTIEMPO_OFICINAS_PRUEBA/",
-      "imagen": "assets/img/ae0463.png"
+      "imagen": "assets/img/ae0463.png",
+      "unidades": [
+        {
+          "nombre": "Torre",
+          "link": "https://proyectosaycardi.github.io/ELTIEMPO_OFICINAS_PRUEBA/"
+        }
+      ]
     }
   ]
 }

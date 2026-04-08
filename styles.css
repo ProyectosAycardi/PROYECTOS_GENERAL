@@ -144,6 +144,20 @@ body {
   padding: 16px;
 }
 
+#listaUnidades {
+  max-width: 600px;
+  margin: auto;
+}
 
+#listaUnidades .proyecto-card {
+  text-align: center;
+  font-size: 16px;
+}
 
-
+.subtitulo-unidades {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 8px;
+  color: #444;
+}

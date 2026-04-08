@@ -37,8 +37,21 @@ function pintarProyectos(listaProyectos) {
   listaProyectos.forEach(p => {
     const card = document.createElement("a");
     card.className = "proyecto-card";
-    card.href = p.link;
-    card.target = "_self";
+    card.href = "#";
+
+    card.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      
+      if (p.unidades && p.unidades.length === 1) {
+        window.location.href = p.unidades[0].link;
+        return;
+      }
+
+      
+      localStorage.setItem("proyectoSeleccionado", JSON.stringify(p));
+      window.location.href = "unidades.html";
+    });
 
     card.innerHTML = `
       <img src="${p.imagen || 'assets/img/placeholder.png'}">
